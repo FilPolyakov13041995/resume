@@ -1,0 +1,159 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+}
+
+.container {
+    background: gainsboro;
+}
+
+
+h1 {
+    font-size: 25px;
+}
+
+
+h2 {
+    padding-left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: goldenrod;
+    border-style: double;
+    text-align: center;
+}
+
+.list25 {
+    padding: 0px 0px 5px 0px;
+}
+
+.list {
+    background-color: lightblue;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.list li {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+
+
+.info-1 {
+    text-align: left;
+    float: right;
+    font-size: medium;
+}
+
+.info-1 p {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.info-1 a {
+    font-size: 14px;
+    color: palevioletred;
+    font-style: normal;
+}
+
+.info-1 h3 {
+    font-style: oblique;
+}
+
+.table {
+    width: 100%;
+    background: lightskyblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table th {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.table th:hover {
+    background: darkcyan;
+    border-radius: 5px;
+}
+
+.table td:hover {
+    background: rgb(84, 84, 221);
+    border-radius: 5px;
+}
+
+.table td:nth-child(1) {
+    background: rgb(68, 200, 223);
+    border-radius: 5px;
+}
+
+.table td:nth-child(3) {
+    background: lightseagreen;
+    border-radius: 3px;
+}
+
+.info-4:hover {
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkblue;
+}
+
+.btn {
+    background: goldenrod;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    color: green;
+    opacity: 0.8;
+}
+
+.img1 {
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form-g label {
+    display: block;
+    font-size: 20px;
+}
+
+.form-g input {
+    background: wheat;
+    color: black;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.form-g textarea {
+    background: wheat;
+    border: 3px solid black;
+    border-radius: 6px;
+}

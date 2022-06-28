@@ -8,20 +8,31 @@
     <meta name="description" content="курс по html">
     <meta charset="UTF-8"/>
     <title>Проект</title>
+    <link rel="stylesheet" href="Styles_proect.css">
 </head>
 <body>
-    <img src="photo me.jpg" width="300" alt="Здесь изображен Филипп Юрьевич">
-    <h1>Филипп Поляков</h1>
-    <p>Я являюсь <strong>тренером</strong> футбольной команды <strong>"Жодино-Южное" <span> <img src="logoBlack.png" width="300" alt="Здесь изображен логотит ЖЮ"></span></strong></p>
-    <p>Я люблю <em>путешествовать</em>, играть в <em> шахматы</em>, активно занимаюсь <em>спортом</em>, а так же увлекаюсь <em>психологией</em>.</p>
-    <h3> <em>Список социальных сетей:</em></h3>
+
+
+    <div class="container">
+        <!-- <img src="https://sun9-80.userapi.com/impf/0addHz8dttjOilzeXmXUw5C89i8GgsZZ2nBt4A/ZPopEGnxmRA.jpg?size=1620x2160&quality=96&sign=ec8197bb4d4db87e64cdb8880babfda3&type=album" alt="Helen" class="img1" > -->
+    <img src="photo me.jpg" alt="Здесь изображен Филипп Юрьевич" class="img1">
+    <div class="info-1">
+    <h1>Филипп Поляков</h1>   
+    <p>Я являюсь "тренером" футбольной команды "Жодино-Южное"</p>
+    <p>Я люблю путешествовать, играть в шахматы, активно занимаюсь спортом, а так же увлекаюсь психологией.</p>
+    <br>
+        <h3 class="list25"> Список социальных сетей:<h3>
     <a href="https://instagram.com/filipp_polyakov?igshid=YmMyMTA2M2Y="  target="_blank">Instagram</a>
     |
     <a href="https://vk.com/polyakov_filipp" target="_blank">Вконтакте</a>
     |
     <a href="https://youtube.com/channel/UCiuuTdhGpVHlwzqmwGwwrgQ" target="_blank">Youtube</a>
+</div>
+
+
 
     <h2>Мои Хобби:</h2>
+    <div class="list">
     <ul>
         <li>Футбол</li>
         <li>Тактика</li>
@@ -29,8 +40,12 @@
         <li>Шахматы</li>
         <li>Музыка</li>
     </ul>
-    <h2>Опыт работы</h2>
-    <table width="400">
+    </div>
+
+    <h2>Опыт работы:</h2>
+    <div class="table">
+    
+    <table class="table" >
         <thead>
             <th>Название</th>
             <th>Должность</th>
@@ -77,7 +92,7 @@
             <tr>
                 <td>ФК Нафтан</td>
                 <td>спортсмен-инструктор</td>
-                <td>2019</td>
+                <td>2018</td>
                 <td>Первая лига</td>
                 <td>Основной состав</td>
             </tr>
@@ -111,24 +126,25 @@
             </tr>
         </tbody>
     </table>
+</div>
     <h2>Связаться со мной</h2>
-    <form>
-        <div>
+    <form class="form">
+        <div class="form-g">
         <label for="name">Ваше имя:</label>
         <input type="text" id="name" placeholder="Введите имя">
     </div>
-    <div>
+    <div class="form-g">
         <label for="Email">Ваш email:</label>
         <input type="email" id="Email" placeholder="Введите email">
     </div>
-    <div>
+    <div class="form-g">
         <label for="message">Ваше сообщение:</label>
-        <br>
         <textarea id="message" placeholder="Введите сообщение..." cols="40" rows="7"></textarea>
-        <div>
-            <input type="submit" value="Отправить форму">
+        <div class="form-g">
+            <input type="submit" value="Отправить форму" class="btn">
         </div>
     </form>
+</div>
     <br>
     <br>
     <br>
